@@ -9,15 +9,15 @@ const SearchedItemTemplate = ({ data }) => {
                 className="group cursor-pointer"
                 onClick={() => window.open(data.link, "_blank")}
             >
-                <div className="text-sm truncate text-[#202124]">
+                <div className="text-sm truncate text-[#ffffff]">
                     {data.formattedUrl}
                 </div>
-                <div className="group-hover:underline text-xl text-[#1a0dab] pt-2">
+                <div className="group-hover:underline text-xl text-[#000000] pt-2">
                     {data.title}
                 </div>
             </div>
             <div
-                className="text-sm text-[#4d5156] leading-6 pt-1"
+                className="text-sm text-[#ffffff] leading-6 pt-1"
                 dangerouslySetInnerHTML={createMarkup(data.htmlSnippet)}
             />
         </div>

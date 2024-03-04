@@ -34,10 +34,10 @@ const SearchResult = () => {
     const { items, queries, searchInformation } = result;
 
     return (
-        <div className="flex flex-col min-h-[100vh]">
+        <div className="flex flex-col min-h-[100vh] bg-[#b520da9a]">
             <SearchResultHeader />
-            <main className="grow p-[12px] pb-0 md:pr-5 md:pl-20">
-                <div className="flex text-sm text-[#70757a] mb-3">{`About ${searchInformation.formattedTotalResults} results in (${searchInformation.formattedSearchTime})`}</div>
+            <main className="grow p-[12px] text-[#ffffff] pb-0 md:pr-5 md:pl-20">
+                <div className="flex text-sm text-[#ffffff] mb-3">{`About ${searchInformation.formattedTotalResults} results in (${searchInformation.formattedSearchTime})`}</div>
                 {!imageSearch ? (
                     <>
                         {items.map((item, index) => (

@@ -5,11 +5,9 @@ import { RiVideoLine } from "react-icons/ri";
 import { SlTag } from "react-icons/sl";
 
 export const menu = [
-    { name: "All", icon: <GoSearch /> },
+    { name: "Web", icon: <GoSearch /> },
     { name: "Images", icon: <BsImage size={14} /> },
-    { name: "News", icon: <BiNews /> },
-    { name: "Videos", icon: <RiVideoLine /> },
-    { name: "Shopping", icon: <SlTag size={14} /> },
+    
 ];
 
 export const quickLinks = [

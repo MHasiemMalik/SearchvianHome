@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { useParams, useNavigate } from "react-router-dom";
 
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/SearchVianlogo1.png";
 import { pagination } from "../utils/Constants";
 
 const Pagination = ({ queries }) => {
@@ -21,7 +21,7 @@ const Pagination = ({ queries }) => {
 
     return (
         <div className="flex flex-col items-center py-14 max-w-[700px]">
-            <div className="relative text-[#4285f4]">
+            <div className="relative text-[#ffffff]">
                 {queries.previousPage && (
                     <div
                         className="absolute left-[-30px] md:left-[-40px] top-[10px]"
@@ -54,7 +54,7 @@ const Pagination = ({ queries }) => {
                     </div>
                 )}
             </div>
-            <div className="flex gap-3 text-[#4285f4] text-sm">
+            <div className="flex gap-3 text-[#ffffff] text-sm">
                 {pagination.map((p) => (
                     <span
                         key={p.page}

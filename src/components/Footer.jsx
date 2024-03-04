@@ -4,9 +4,9 @@ import { quickLinks, settingMenu } from "../utils/constants";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#f2f2f2]">
+        <footer className="bg-[#f2f2f228]">
             <div className="flex py-[15px] px-[15px] md:px-[30px] border-b border-[#dadce0]">
-                <span className="text-[#70757a] text-[15px] leading-none">
+                <span className="text-[#ffffff] text-[15px] leading-none">
                     India
                 </span>
             </div>
@@ -16,7 +16,7 @@ const Footer = () => {
                     {quickLinks.map((menu, index) => (
                         <span
                             key={index}
-                            className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]"
+                            className="text-[#ffffff] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]"
                         >
                             {menu}
                         </span>
@@ -27,7 +27,7 @@ const Footer = () => {
                     {settingMenu.map((menu, index) => (
                         <span
                             key={index}
-                            className="text-[#70757a] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]"
+                            className="text-[#ffffff] text-[12px] md:text-[14px] leading-none p-[10px] md:p-[15px]"
                         >
                             {menu}
                         </span>

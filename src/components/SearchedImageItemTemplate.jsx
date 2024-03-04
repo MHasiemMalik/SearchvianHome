@@ -11,10 +11,10 @@ const SearchedImageItemTemplate = ({ data }) => {
                     alt={data.title}
                 />
             </div>
-            <div className="text-xs text-[#70757a] pt-2">
+            <div className="text-xs text-[#ffffff] pt-2">
                 {data.displayLink}
             </div>
-            <div className="text-sm text-[#3c4043] truncate pt-1 group-hover:underline">
+            <div className="text-sm text-[#ffffff] truncate pt-1 group-hover:underline">
                 {data.title}
             </div>
         </div>

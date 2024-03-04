@@ -6,7 +6,7 @@ import { BiNews } from "react-icons/bi";
 import { RiVideoLine } from "react-icons/ri";
 import { SlTag } from "react-icons/sl";
 
-import Logo from "../assets/logo2.png";
+import Logo from "../assets/SearchVianlogo2.png";
 import SearchInput from "./SearchInput";
 import ProfileIcon from "./ProfileIcon";
 import { Context } from "../utils/ContextApi";
@@ -27,7 +27,7 @@ const SearchResultHeader = () => {
     };
 
     return (
-        <div className="p-[15px] pb-0 md:pr-5 md:pl-20 md:pt-7 border-b border-[#ebebeb] flex md:block flex-col items-center sticky top-0 bg-white">
+        <div className="p-[15px] pb-0 md:pr-5 md:pl-20 md:pt-7 border-b border-[#ebebeb] flex md:block flex-col items-center sticky top-0 bg-[#b520da9a]">
             <div className="flex items-center justify-between w-full">
                 <div className="flex items-center grow">
                     <Link to="/">
@@ -48,8 +48,8 @@ const SearchResultHeader = () => {
                 {menu.map((menu, index) => (
                     <span
                         key={index}
-                        className={`flex items-center p-3 text-[#5f6368] cursor-pointer relative ${
-                            selectedMenu === menu.name ? "text-[#1a73e8]" : ""
+                        className={`flex items-center p-3 text-[#ffffff] cursor-pointer relative ${
+                            selectedMenu === menu.name ? "text-[#000000]" : ""
                         }`}
                         onClick={() => clickHandler(menu)}
                     >
@@ -58,7 +58,7 @@ const SearchResultHeader = () => {
                         </span>
                         <span className="text-sm">{menu.name}</span>
                         {selectedMenu === menu.name && (
-                            <span className="h-[3px] w-[calc(100%-20px)] absolute bg-[#1a73e8] bottom-0 left-[10px]" />
+                            <span className="h-[3px] w-[calc(100%-20px)] absolute bg-[#ffffff] bottom-0 left-[10px]" />
                         )}
                     </span>
                 ))}
