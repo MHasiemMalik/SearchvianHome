@@ -1,4 +1,4 @@
-import Logo from "../assets/SearchVianlogo4.png";
+import Logo from "../assets/svtest2.png";
 import HomeHeader from "./HomeHeader";
 import SearchInput from "./SearchInput";
 import Footer from "./Footer";

@@ -1,6 +1,6 @@
 import { TbGridDots } from "react-icons/tb";
 
-import Profile from "../assets/SearchVianlogo3.png";
+import Profile from "../assets/svtest3.png";
 import ProfileRing from "../assets/profile-ring.svg";
 
 const ProfileIcon = () => {
