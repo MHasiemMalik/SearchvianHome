@@ -8,13 +8,13 @@ Node.js
 
 Visite the site here : [Searchvian Website](https://searchvianbymalik.netlify.app/)
 
- ![Searchvian Screenshot 1](./src/assets/sv1.png)
+ ![Searchvian Screenshot 1](./src/assets/serachvian%20gif.gif)
 
 ## Overview
 SearchVian is an innovative search engine built to deliver a seamless and efficient user experience when it comes to retrieving web-based information. Powered by the Google Search API, SearchVian is capable of fetching accurate and comprehensive data from the internet, including websites, images, and other web-based resources. The combination of modern technologies like React.js for the frontend, Tailwind CSS for styling, and Node.js for the backend makes SearchVian a reliable and high-performance search engine.
 
 With its simple and intuitive interface, SearchVian enables users to effortlessly enter their queries and receive tailored search results, including images and hyperlinks. Whether you're conducting research, looking for media, or navigating the vast landscape of web content, SearchVian brings the power of a robust search engine to your fingertips.
-
+![Searchvian Screenshot 1](./src/assets/sv1.png)
 ![Searchvian Screenshot 1](./src/assets/sv2.png)
 
 ### Features
