@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# SearchvianHome
-=======
-
 # SearchVian - A Powerful Web Search Engine
 ## Tech Stack:
 RapidAPI
@@ -78,4 +74,4 @@ Dark Mode: An alternative color scheme for better visibility in low-light condit
 SearchVian is your gateway to fast, accurate, and user-friendly web searches. By harnessing the power of the Google Search API and combining it with a modern tech stack, SearchVian provides users with a comprehensive and efficient tool for all their search needs. Whether you’re searching for websites, images, or in-depth research material, SearchVian makes sure you get the right information quickly and conveniently.
 
 For more information on contributing, check out the Contributing section in the repository or reach out to me at hasiemmalikm.official@gmail.com.
->>>>>>> IndexMain
+
