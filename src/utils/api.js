@@ -13,3 +13,6 @@ export const fetchDataFromApi = async (payload) => {
     });
     return data;
 };
+
+
+/*key: "AIzaSyCRnbN1EkKYNR4m6pi0Qilsqvcfc7p6xik", cx: "93b9e0bf719ba4f63",*/
